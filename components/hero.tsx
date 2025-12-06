@@ -33,13 +33,13 @@ export function Hero() {
   const { getData, saveData, isEditMode, saveToFile, saveFieldToFile } = useInlineEditor()
   
   // 초기 데이터 - 배열 형태로 변경
-  const defaultSocialLinks = [{"name":"Instagram","icon":"instagram","url":"https://instagram.com/username"},{"name":"YouTube","icon":"youtube","url":"https://youtube.com/@username"}]
+  const defaultSocialLinks = []
   
   const defaultInfo = {
     greeting: "안녕하세요",
     name: "권윤호입니다",
-    title: "도시의 흐름을 분석하여 최적의 부동산 가치를 도출하는 것을 목표로 하는 예비 전문가",
-    description: "",
+    title: "데이터로 도시를 읽는 부동산 전략가",
+    description: "도시의 맥락을 분석하여 부동산의 잠재 가치를 극대화하는 솔루션을 목표로 하고 있습니다.",
     profileImage: "/uploads/hero-profile-1761477237286.png",
     backgroundImage: "",
     backgroundVideo: "",
