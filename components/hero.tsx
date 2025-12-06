@@ -36,9 +36,9 @@ export function Hero() {
   const defaultSocialLinks = [{"name":"Instagram","icon":"instagram","url":"https://instagram.com/username"},{"name":"YouTube","icon":"youtube","url":"https://youtube.com/@username"}]
   
   const defaultInfo = {
-    greeting: "안녕하세요,",
-    name: "권윤호",
-    title: "32210287",
+    greeting: "안녕하세요",
+    name: "권윤호입니다",
+    title: "도시의 흐름을 분석하여 최적의 부동산 가치를 도출하는 것을 목표로 하는 예비 전문가",
     description: "",
     profileImage: "/uploads/hero-profile-1761477237286.png",
     backgroundImage: "",
