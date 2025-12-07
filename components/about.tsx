@@ -98,9 +98,9 @@ export function About() {
   const defaultInfo = {
     title: "소개",
     subtitle: "당신의 전문성과 열정을 소개해주세요.",
-    background: {"image":"","video":"","color":"#000000","opacity":0.1},
-    experienceCards: [{"icon":"graduation","title":"단국대학교","period":"2021 - 2027학년도 졸업 예정","description":"도시계획부동산학부 부동산학전공"}],
-    skills: [{"icon":"target","title":"도시 계획 및 재생 전략","description":"도시의 공간 구조와 인프라(교통망) 변화를 분석하여 최적의 개발 전략을 수립합니다. 김포공항 도시재생 혁신지구 연구 등을 통해 UAM, 복합환승센터 등 미래 모빌리티와 연계된 도시 성장 모델을 기획하고 타당성을 검토할 수 있습니다"},{"icon":"lineChart","title":"사업 타당성 및 가치 평가","description":"부동산의 내재 가치를 산정하기 위해 감정평가 3방식(원가/비교/수익)을 적용하고, 현금흐름(DCF) 분석을 통해 NPV, IRR 등 투자 지표를 도출합니다. 자산 유동화(MBS/REITs) 구조를 이해하고, 프로젝트의 수익성과 리스크를 다각도로 평가합니다."}],
+    background: {"image":"/uploads/about-background-1765084428049.jpg","video":"","color":"","opacity":0.1},
+    experienceCards: [{"icon":"graduation","title":"단국대학교","period":"2021 - 2026","description":"도시계획부동산학부 부동산학전공"}],
+    skills: [{"icon":"target","title":"도시 계획 및 재생 전략","description":"도시의 공간 구조와 인프라(교통망) 변화를 분석하여 최적의 개발 전략을 수립합니다. 김포공항 도시재생 혁신지구 연구 등을 통해 UAM, 복합환승센터 등 미래 모빌리티와 연계된 도시 성장 모델을 기획하고 타당성을 검토할 수 있습니다"},{"icon":"lineChart","title":"사업 타당성 및 가치 평가","description":"부동산의 내재 가치를 산정하기 위해 감정평가 3방식(원가/비교/수익)을 적용하고, 현금흐름(DCF) 분석을 통해 NPV, IRR 등 투자 지표를 도출합니다. 자산 유동화(MBS/REITs) 구조를 이해하고, 프로젝트의 수익성과 리스크를 다각도로 평가합니다."},{"icon":"globe","title":"GIS","description":"ArcGIS Pro를 활용하여 도시의 지리적 특성과 입지 요인을 정량적으로 분석합니다. 소음 지도 작성, 고도 제한 구역 시각화, 상권 배후지 분석 등 공간 데이터를 기반으로 최적의 입지를 선정하고 개발 전략의 타당성을 검증합니다."}],
     storyTitle: "나의 이야기",
     story: ["저에게 부동산은 단순한 건물이 아니라, 사람과 자본이 모여 만드는 거대한 유기체입니다. 학부 과정에서 부동산 금융(Micro)과 도시 계획(Macro)을 함께 연구하며, 미시적인 수익성과 거시적인 공공성을 조율하는 균형 감각을 키웠습니다.","\"왜 이 땅은 저평가되었을까?\", \"이 도시는 미래에 어떤 모습일까?\" 끊임없이 질문하고, 그 답을 찾기 위해 발로 뛰며 현장을 확인하고 책상 앞에서는 데이터를 분석합니다."],
     storyImage: "",

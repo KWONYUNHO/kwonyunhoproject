@@ -40,7 +40,7 @@ export function Hero() {
     name: "권윤호입니다",
     title: "데이터로 도시를 읽는 부동산 전략가",
     description: "도시의 맥락을 분석하여 부동산의 잠재 가치를 극대화하는 솔루션을 목표로 하고 있습니다.",
-    profileImage: "/uploads/hero-profile-1761477237286.png",
+    profileImage: "/uploads/hero-profile-1765081587953.jpg",
     backgroundImage: "",
     backgroundVideo: "",
     backgroundOpacity: 0.1,

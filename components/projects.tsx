@@ -17,8 +17,8 @@ export function Projects() {
     subtitle: "프로젝트",
     initialDisplay: 6,
     loadMoreCount: 3,
-    background: {"image":"","video":"","color":"","opacity":0.1},
-    projects: [{"image":"/uploads/project-1764995904733-1764995904783.jpg","video":"","title":"김포국제공항 도시재생혁신지구 개발 타당성 및 활성화 전략 연구","description":"노후화된 김포공항 일대를 미래 모빌리티(UAM) 허브 및 신성장 산업 거점으로 전환하기 위한 도시재생 전략을 분석했습니다. 소음 피해와 고도 제한 등 개발 저해 요인을 공간적 관점에서 진단하고, 이를 극복하기 위한 복합환승시설(S-BRT) 구축 및 배후 산업 클러스터링(물류/R&D) 방안을 구체적으로 제안하였습니다."},{"image":"/uploads/project-1764996018490-1764996018570.jpg","video":"","title":"PLACE 모델 기반 주거 정책 평가: 사각지대 해소와 생애주기별 맞춤 전략","description":"청년, 신혼부부, 고령층 등 주거 취약계층이 겪는 '정책 사각지대'를 해소하기 위한 연구 프로젝트를 진행했습니다. 획일적인 선정 기준의 문제점을 지적하고, 소득 구간별 차등 지원(Sliding Scale) 및 주거와 돌봄 서비스가 결합된 '케어 안심 주택' 등 실효성 있는 제도적 보완책을 제언했습니다."}] as Array<{ image: string; video?: string; title: string; description: string }>
+    background: {"image":"/uploads/projects-background-1765084373332.jpg","video":"","color":"","opacity":0.1},
+    projects: [{"image":"/uploads/project-0-1765083548638.jpg","video":"","title":"김포국제공항 도시재생혁신지구 개발 타당성 및 활성화 전략 연구","description":"노후화된 김포공항 일대를 미래 모빌리티(UAM) 허브 및 신성장 산업 거점으로 전환하기 위한 도시재생 전략을 분석했습니다. 소음 피해와 고도 제한 등 개발 저해 요인을 공간적 관점에서 진단하고, 이를 극복하기 위한 복합환승시설(S-BRT) 구축 및 배후 산업 클러스터링(물류/R&D) 방안을 구체적으로 제안하였습니다."},{"image":"/uploads/project-1-1765083454970.jpg","video":"","title":"생애주기별 주거 취약계층 맞춤형 공급 전략 및 정책 탐구","description":"청년, 신혼부부, 고령층 등 주거 취약계층이 겪는 '정책 사각지대'를 해소하기 위한 연구 프로젝트를 진행했습니다. 획일적인 선정 기준의 문제점을 지적하고, 소득 구간별 차등 지원(Sliding Scale) 및 주거와 돌봄 서비스가 결합된 '케어 안심 주택' 등 실효성 있는 제도적 보완책을 제언했습니다."}] as Array<{ image: string; video?: string; title: string; description: string }>
   }
 
   const [projectsInfo, setProjectsInfo] = useState(defaultInfo)
