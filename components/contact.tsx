@@ -38,14 +38,14 @@ export function Contact() {
     title: "단국대학교 도시계획부동산학부",
     company: "",
     experience: "3학년",
-    phone: "",
+    phone: "010-4609-0797",
     email: "unokwon@naver.com",
     website: "",
     location: "경기도 용인시 수지구 죽전로 142",
     workTime: "평일 09:00 - 18:00",
     responseTime: "2시간 이내 응답",
     sectionTitle: "연락처",
-    sectionSubtitle: "프로젝트 문의나 협업 제안을 기다리고 있습니다. 편하신 방법으로 연락주세요!",
+    sectionSubtitle: " ",
     qrTitle: "QR 코드로 연락처 저장",
     qrSubtitle: "스캔하면 연락처가 자동으로 저장됩니다",
     bottomMessage: "데이터로 도시를 읽는 부동산 전략가가 되겠습니다.",
@@ -56,7 +56,13 @@ export function Contact() {
   }
   
   // 소셜 링크 기본값 (배열 형태로 변경)
-  const defaultSocialLinks: { name: string; icon: string; url: string }[] = []
+  const defaultSocialLinks: { name: string; icon: string; url: string }[] = [
+    {
+      "name": "새 링크",
+      "icon": "globe",
+      "url": " "
+    }
+  ]
   
   const [contactInfo, setContactInfo] = useState(defaultInfo)
   const [socialLinks, setSocialLinks] = useState(defaultSocialLinks)
